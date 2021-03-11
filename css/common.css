@@ -1,0 +1,32 @@
+@font-face { 
+   font-family: 'KiaSignature'; 
+   src: url(../font/KiaSignatureLight.woff2) format('woff2'), url(../font/KiaSignatureLight.woff) format("woff");
+   font-weight: 100;
+}
+
+@font-face { 
+   font-family: 'KiaSignature'; 
+   src: url(../font/KiaSignatureRegular.woff2) format('woff2'), url(../font/KiaSignatureRegular.woff) format("woff");
+   font-weight: 400;
+}
+
+@font-face { 
+   font-family: 'KiaSignature'; 
+   src: url(../font/KiaSignatureBold.woff2) format('woff2'), url(../font/KiaSignatureBold.woff) format("woff");
+   font-weight: 700;
+}
+/* text style */
+body {
+   font-family: 'KiaSignature', 'sans-serif';
+   }
+h1 {
+   color:rgb(255,255,255);  
+   font-weight: 700;
+}
+
+ul {list-style: none;}
+
+ul {margin: 0;
+   padding: 0;}
+
+   a {text-decoration: none;}
